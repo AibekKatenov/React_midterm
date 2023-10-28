@@ -1,0 +1,17 @@
+
+.header_container {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(45, 111, 233);
+    padding: 2%;
+}
+
+.header_item a{
+    text-decoration: none;
+    color: white
+}
+
+.header_item:hover a{
+    color: crimson;
+    transition: .4s;
+}
